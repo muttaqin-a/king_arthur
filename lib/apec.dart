@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Asean extends StatelessWidget {
-  const Asean({Key? key}) : super(key: key);
+class Apec extends StatelessWidget {
+  const Apec({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,13 +17,13 @@ class Asean extends StatelessWidget {
                   topLeft: Radius.circular(15),
                 ),
               ),
-              color: Color(0xff0b3D91),
+              color: Colors.white,
               child: Column(
                 children: [
                   Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(left: 8, top: 8),
                         child: Card(
                           color: Colors.white,
                           child: IconButton(
@@ -39,7 +39,7 @@ class Asean extends StatelessWidget {
                   ),
                   Image(
                     image: NetworkImage(
-                        "https://upload.wikimedia.org/wikipedia/id/thumb/8/87/Flag_of_ASEAN.svg/1200px-Flag_of_ASEAN.svg.png?20120517154426"),
+                        "https://blogger.googleusercontent.com/img/a/AVvXsEjDXCoavzluRssbcirqAhx2Su0Udi1McOS5qTMYretzD0zS_r4Fd2lZkfYJcbm8TKzckpK1pjonq1NNkzgjlN50rIrj0FeGLm_2rqHdylSDJlp4fQASxSP7SANPQr7XAuB8c7l67T0OoOrkRC2apc-OOEhHO7UTBM-3UowBof2acEQUmftKZx9oeZm0JA=w1200-h630-p-k-no-nu"),
                   ),
                 ],
               ),
